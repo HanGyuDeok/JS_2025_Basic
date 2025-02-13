@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>JS 의 데이터 속성 접근</title>
+</head>
+<body>
+<ul class = "users">
+  <!-- 'data-' 접두사는 그냥 컨벤션이 아니고 기능적으로 연결됨 -->
+  <li data-userid = "0001" data-role = "admin">마스터 계정 관련 정보</li>
+  <li data-userid = "0002" data-role = "manager">관리자 계정 관련 정보</li>
+  <li data-userid = "0003" data-role = "client">회원 계정 관련 정보</li>
+</ul>
+<script>
+  const [$master, $manager, $client] = document.querySelectorAll('.users>li');
+  console.log("$master, $manager, $client : ", $master, $manager, $client);
+  console.log(
+    $master.dataset,
+    $manager.dataset,
+    $client.dataset,
+  )
+  console.log(
+    $master.dataset.role,$master.dataset.userid,
+    $manager.dataset.role,$manager.dataset.userid,
+    $client.dataset.role,$client.dataset.userid,
+  )
+  // 서버에서 통계 대시보드, 게시판형 UX 등을 Formatting 할 때
+  // Form 을 서버 통신 데이터와 유저에게 표시할 데이터로 구분해서 다룰 때
+</script>
+</body>
+</html>

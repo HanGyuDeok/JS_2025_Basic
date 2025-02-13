@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>스무고개 입니다</title>
+  <style>
+      body {
+          display: flex;
+          background: lightblue;
+          flex-direction: column;
+      }
+
+      h1 {
+          width: 40%;
+          text-align: center;
+          background-color: white;
+          border: 1px solid white;
+          padding: 10px;
+          border-radius: 10px;
+      }
+
+      .input {
+          display: flex;
+          flex-direction: row;
+      }
+
+      #userInput {
+          margin-left: 10px;
+          margin-right: 20px;
+      }
+  </style>
+  <script src = "gameScript2.js" defer></script>
+</head>
+<body>
+<h1>스무 고개를 돌려봅시다!</h1>
+<div><p>단어의 종류가 나타납니다!</p></div>
+<div class = "input">
+  <label for = "userInput">단어를 맞춰보세요 :</label>
+  <input type = "text" id = "userInput">
+  <button id = "submit">제출</button>
+</div>
+<ul id = "hintList">힌트가 이곳에 나타납니다.</ul>
+</body>
+</html>
