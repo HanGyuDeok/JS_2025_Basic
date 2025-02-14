@@ -7,19 +7,19 @@
 }
 
 /* JS 의 동적 클래스 토글을 사용 가능한 경우 제어 패턴이 콤팩트해짐! */
-.play-running {
-    animation: forward-run 500ms linear infinite 0s;
+.walking-forward {
+    animation: forward-step 500ms linear infinite 0s;
     animation-play-state: running;
 }
 
-.pause-running {
-    animation: forward-run 500ms linear infinite 0s;
+.pause-forward {
+    animation: forward-step 500ms linear infinite 0s;
     animation-play-state: paused;
 }
 
 /* 애니메이션 정의 */
 /* 애니메이션 명, 컷 개수 커버리지 */
-@keyframes forward-run {
+@keyframes forward-step {
     0% {
         background-image: url('img/runningman/runningman1.png');
     }
