@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.div {
+    width: 600px; /* 원하는 고정 너비 */
+    height: 600px; /* 원하는 고정 높이 */
+    margin: 0 auto; /* 가운데 정렬 */
+    /*overflow: hidden; !* 스크롤 방지 *!*/
+}
+
+
+#zelda-link {
+    transform: translate(395px, -420px);
+    width: 60px;
+    height: 65px;
+    background: url('img/zelda-link-img/front_stand.png') no-repeat center/cover;
+
+    /*animation-fill-mode: forwards; */ /* 마지막에서 멈춤 */
+    animation-fill-mode: backwards; /* 첫상태로 되돌림 */
+}
+
+#map {
+    /*640 × 576*/
+    transform: translate(0, -50px);
+    width: 1000px;
+    height: 800px;
+    background: url('img/map/pokemon_town_map.jpg') repeat left top/cover;
+}
+
+/* 애니메이션 정의 */
+/* 애니메이션 명, 컷 개수 커버리지 */
+@keyframes forward-step {
+    0% {
+        background: url('img/zelda-link-img/front_walk0.png') no-repeat center/cover;
+    }
+    10% {
+        background: url('img/zelda-link-img/front_walk1.png') no-repeat center/cover;
+    }
+    20% {
+        background: url('img/zelda-link-img/front_walk2.png') no-repeat center/cover;
+    }
+    30% {
+        background: url('img/zelda-link-img/front_walk3.png') no-repeat center/cover;
+    }
+    40% {
+        background: url('img/zelda-link-img/front_walk4.png') no-repeat center/cover;
+    }
+    50% {
+        background: url('img/zelda-link-img/front_walk5.png') no-repeat center/cover;
+    }
+    60% {
+        background: url('img/zelda-link-img/front_walk6.png') no-repeat center/cover;
+    }
+    70% {
+        background: url('img/zelda-link-img/front_walk7.png') no-repeat center/cover;
+    }
+    80% {
+        background: url('img/zelda-link-img/front_walk8.png') no-repeat center/cover;
+    }
+    90% {
+        background: url('img/zelda-link-img/front_walk9.png') no-repeat center/cover;
+    }
+    100% {
+        background: url('img/zelda-link-img/front_walk0.png') no-repeat center/cover;
+    }
+}
+
+.walking-forward {
+    animation: forward-step 500ms linear infinite 0s;
+    animation-play-state: running;
+}
+
+.pause-forward {
+    background: url(img/zelda-link-img/front_stand.png) no-repeat center/cover !important;
+    /*animation: forward-step 500ms linear infinite 0s;
+    animation-fill-mode: backwards;*/
+    animation-play-state: paused;
+}
+
+@keyframes backward-step {
+    0% {
+        background: url('img/zelda-link-img/back_walk0.png') no-repeat center/cover;
+    }
+    10% {
+        background: url('img/zelda-link-img/back_walk1.png') no-repeat center/cover;
+    }
+    20% {
+        background: url('img/zelda-link-img/back_walk2.png') no-repeat center/cover;
+    }
+    30% {
+        background: url('img/zelda-link-img/back_walk3.png') no-repeat center/cover;
+    }
+    40% {
+        background: url('img/zelda-link-img/back_walk4.png') no-repeat center/cover;
+    }
+    50% {
+        background: url('img/zelda-link-img/back_walk5.png') no-repeat center/cover;
+    }
+    60% {
+        background: url('img/zelda-link-img/back_walk6.png') no-repeat center/cover;
+    }
+    70% {
+        background: url('img/zelda-link-img/back_walk7.png') no-repeat center/cover;
+    }
+    80% {
+        background: url('img/zelda-link-img/back_walk8.png') no-repeat center/cover;
+    }
+    90% {
+        background: url('img/zelda-link-img/back_walk9.png') no-repeat center/cover;
+    }
+    100% {
+        background: url('img/zelda-link-img/back_walk0.png') no-repeat center/cover;
+    }
+}
+
+.walking-backward {
+    animation: backward-step 500ms linear infinite 0s;
+    animation-play-state: running;
+}
+
+.pause-backward {
+    background: url(img/zelda-link-img/back_stand.png) no-repeat center/cover !important;
+    /*animation: forward-step 500ms linear infinite 0s;
+    animation-fill-mode: backwards;*/
+}
+
+@keyframes leftward-step {
+    0% {
+        background: url('img/zelda-link-img/left_walk0.png') no-repeat center/cover;
+    }
+    10% {
+        background: url('img/zelda-link-img/left_walk1.png') no-repeat center/cover;
+    }
+    20% {
+        background: url('img/zelda-link-img/left_walk2.png') no-repeat center/cover;
+    }
+    30% {
+        background: url('img/zelda-link-img/left_walk3.png') no-repeat center/cover;
+    }
+    40% {
+        background: url('img/zelda-link-img/left_walk4.png') no-repeat center/cover;
+    }
+    50% {
+        background: url('img/zelda-link-img/left_walk5.png') no-repeat center/cover;
+    }
+    60% {
+        background: url('img/zelda-link-img/left_walk6.png') no-repeat center/cover;
+    }
+    70% {
+        background: url('img/zelda-link-img/left_walk7.png') no-repeat center/cover;
+    }
+    80% {
+        background: url('img/zelda-link-img/left_walk8.png') no-repeat center/cover;
+    }
+    90% {
+        background: url('img/zelda-link-img/left_walk9.png') no-repeat center/cover;
+    }
+    100% {
+        background: url('img/zelda-link-img/left_walk0.png') no-repeat center/cover;
+    }
+}
+
+.walking-leftward {
+    animation: leftward-step 500ms linear infinite 0s;
+    animation-play-state: running;
+}
+
+.pause-leftward {
+    background: url(img/zelda-link-img/left_stand.png) no-repeat center/cover !important;
+    /*animation: forward-step 500ms linear infinite 0s;
+    animation-fill-mode: backwards;*/
+}
+
+@keyframes rightward-step {
+    0% {
+        background: url('img/zelda-link-img/right_walk0.png') no-repeat center/cover;
+    }
+    10% {
+        background: url('img/zelda-link-img/right_walk1.png') no-repeat center/cover;
+    }
+    20% {
+        background: url('img/zelda-link-img/right_walk2.png') no-repeat center/cover;
+    }
+    30% {
+        background: url('img/zelda-link-img/right_walk3.png') no-repeat center/cover;
+    }
+    40% {
+        background: url('img/zelda-link-img/right_walk4.png') no-repeat center/cover;
+    }
+    50% {
+        background: url('img/zelda-link-img/right_walk5.png') no-repeat center/cover;
+    }
+    60% {
+        background: url('img/zelda-link-img/right_walk6.png') no-repeat center/cover;
+    }
+    70% {
+        background: url('img/zelda-link-img/right_walk7.png') no-repeat center/cover;
+    }
+    80% {
+        background: url('img/zelda-link-img/right_walk8.png') no-repeat center/cover;
+    }
+    90% {
+        background: url('img/zelda-link-img/right_walk9.png') no-repeat center/cover;
+    }
+    100% {
+        background: url('img/zelda-link-img/right_walk0.png') no-repeat center/cover;
+    }
+}
+
+.walking-rightward {
+    animation: rightward-step 500ms linear infinite 0s;
+    animation-play-state: running;
+}
+
+.pause-rightward {
+    background: url(img/zelda-link-img/right_stand.png) no-repeat center/cover !important;
+    /*animation: forward-step 500ms linear infinite 0s;
+    animation-fill-mode: backwards;*/
+}
+
+/* 로딩화면에서 모든 이미지를 한번씩 돌리는 작업을 하면 첫 실행시 이미지를 받아오면서 반짝이는 효과가 줄어듦 */
+@keyframes all-step {
+    /* 이부분에 모든 이미지 상태 불러 오면 됨 */
+    /* 아래에서 짧게 실행 시킴 */
+}
+
+.load-all {
+    animation: all-step 10ms linear 0;
+    animation-play-state: running;
+}
