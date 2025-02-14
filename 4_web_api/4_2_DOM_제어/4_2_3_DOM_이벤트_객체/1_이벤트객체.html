@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>이벤트 객체를 수신해 정보를 확인해 보자!</title>
+</head>
+<body>
+<h1>아무 곳이나 클릭하세요!</h1>
+<p>
+  <em class = "click-info"></em>
+</p>
+<script>
+  // 1) 화면 요소 Select
+  const $clickInfoText = document.querySelector(".click-info");
+
+  // 2) 이벤트 핸들러 정의
+  document.addEventListener('click', (event) => {
+    console.log("클릭이 발생했습니다!", event);
+    // alert("클릭");
+    $clickInfoText.textContent = `클릭위치 정보 | ${event.target.nodeName}:(${event.x},${event.y}))`
+    // 이벤트 객체를 통해 가져올 수 있는 주요 정보들
+    // 이벤트 종류, 타겟, 타입스탬프(페이지 로드 후 ms)
+    console.log('이벤트 종류, 동작 타겟, 바인딩 타겟(currentTarget), 타임스탬프(페이지 로드 후 ms)');
+    console.log(event.type, event.target.nodeName, event.currentTarget, event.timeStamp);
+  })
+
+  document.addEventListener('keydown', (e) => {
+    console.log("키보드 인풋이 발생했습니다!", e)
+    console.log('이벤트 종류, 이벤트 내용(전달 데이터), 바인딩 타겟(currentTarget), 타임스탬프(페이지 로드 후 ms)');
+    console.log(e.type, {key: e.key, code: e.code}, e.target.nodeName, e.currentTarget, e.timeStamp);
+  })
+</script>
+</body>
+</html>
