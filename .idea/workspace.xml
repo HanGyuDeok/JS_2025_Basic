@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041edbb8-9a72-4e58-aa33-4a4d46235651" name="변경" comment="2025.2.14&#10;2차">
+    <list default="true" id="041edbb8-9a72-4e58-aa33-4a4d46235651" name="변경" comment="2025.2.14&#10;3차">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -129,7 +129,7 @@
       <workItem from="1739238904086" duration="22894000" />
       <workItem from="1739324055699" duration="46407000" />
       <workItem from="1739449127103" duration="7965000" />
-      <workItem from="1739498827845" duration="16710000" />
+      <workItem from="1739498827845" duration="22514000" />
     </task>
     <task id="LOCAL-00001" summary="커밋">
       <option name="closed" value="true" />
@@ -179,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739519382874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2025.2.14&#10;3차">
+      <option name="closed" value="true" />
+      <created>1739523091230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739523091230</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +221,7 @@
     <MESSAGE value="연동 확인용" />
     <MESSAGE value="2025.2.14&#10;1차" />
     <MESSAGE value="2025.2.14&#10;2차" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.2.14&#10;2차" />
+    <MESSAGE value="2025.2.14&#10;3차" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.2.14&#10;3차" />
   </component>
 </project>
