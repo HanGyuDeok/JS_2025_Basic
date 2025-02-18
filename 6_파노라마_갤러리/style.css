@@ -53,7 +53,6 @@ body {
     animation: panorama-spin 2s linear infinite;
     animation-play-state: paused;
     /* 애니메이션 확인용 각도 제어 */
-    transform: rotateY(175deg)
 }
 
 .wrap .circle article { /* .face1 ~ 8 일괄 적용 */
@@ -134,6 +133,7 @@ body {
     top: -150px;
     transform: scale(1.4);
     font-size: 50px;
+    text-shadow: 0 0 10px aqua;
 }
 
 /*----------- 3) 갤러리 Face 별 타이틀 제어 끝 -----------*/
@@ -162,6 +162,8 @@ body {
     transform: scale(1.15);
     opacity: 1;
     color: aqua;
+    box-shadow: 0 0 30px aqua;
+    text-shadow: 0 0 10px aqua;
 }
 
 
@@ -336,13 +338,152 @@ body {
     top: 0;
     left: 40%;
     opacity: 0.6;
+    text-shadow: 0 0 10px aqua;
 }
 
 /*---------- [.face6 ] ----------*/
+.face6 > .inner > div {
+    height: 24%;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
 
+.face6 > .inner > div i {
+    width: 170px;
+    height: 120px;
+    font-size: 100px;
+    float: left;
+    border-right: 2px solid #fff;
+    margin-right: 30px;
+}
+
+.face6 > .inner > div:first-child i {
+    font-size: 95px;
+}
+
+.face6 > .inner > div .content {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.face6 > .inner > div .content h2 {
+}
+
+.face6 > .inner > div .content p {
+}
+
+.face6 > .inner > div .content a {
+    color: aquamarine;
+}
 
 /*---------- [.face7 ] ----------*/
+.face7 .inner > div {
+    opacity: 1;
+}
+
+.face7 .inner > div > h2, .face7 .inner > div > img {
+    opacity: 0;
+}
+
+.face7:hover .inner > div > h2, .face7:hover .inner > div img {
+    opacity: 1;
+}
+
+.face7 .inner h2 {
+    z-index: 10;
+    position: absolute;
+    font-size: 100px;
+    top: 100px;
+    margin-left: 50px;
+    text-shadow: 2px 2px 2px lightgreen;
+}
+
+.face7 .inner .video-frame {
+    overflow: hidden;
+    position: absolute;
+    /* 가로 마진 채우기 */
+    width: 600px;
+    height: 800px;
+}
+
+.face7 .inner video {
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    /* 콘텐츠 크기 */
+    position: absolute;
+    overflow: hidden;
+}
+
+.face7 .inner .deco-text {
+    overflow: hidden;
+    width: 70%;
+    position: absolute;
+    top: 40%;
+}
+
+.face7 .inner .deco-line {
+    overflow: hidden;
+    width: 130%;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+
 /*---------- [.face8 ] ----------*/
+.face8 .inner > div {
+    height: 58%;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.face8 .inner > div:nth-child(2),
+.face8 .inner > div:nth-child(3) {
+    position: absolute;
+    width: 290px;
+    margin-right: 20px;
+    height: 40%;
+}
+.face8 .inner > div:nth-child(3){
+    right: -20px;
+}
+
+.face8 .inner > div h2 {
+    font-size: 30px;
+    text-align: left;
+}
+.face8 .inner > div:first-child i {
+    position: absolute;
+    top: 120px;
+    right: 35px;
+    text-align: right;
+    font-size: 130px;
+}
+.face8 .inner > div span{
+    position: absolute;
+    top: 150px;
+    font-size: 50px;
+    left: 50px;
+    transition: all 500ms;
+}
+
+.face8 .inner > div:hover span {
+    text-shadow: 0 0 10px aqua;
+}
+
+.face8 .inner > div h3 {
+    text-align: left;
+}
+
+.face8 .inner > div p {
+    text-align: left;
+    font-size: 30px;
+}
+
+.face8 .inner > div i {
+    font-size: 100px;
+}
 
 
 /*---------- 5) 내부 콘텐츠 개별 레이아웃 및 동작 지정 끝 ----------*/

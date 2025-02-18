@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041edbb8-9a72-4e58-aa33-4a4d46235651" name="변경" comment="2025.2.17&#10;1차">
+    <list default="true" id="041edbb8-9a72-4e58-aa33-4a4d46235651" name="변경" comment="2025.2.18&#10;1차">
+      <change afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/sora_cloud.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/galleryScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/galleryScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/btn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/member1.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/member1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/member2.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/member2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/reflect.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/reflect.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/sora_cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/sora_cloud.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/turtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/turtle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/txt.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/txt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img/txt2.png" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/img/txt2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/mov/e1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/mov/e1.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_파노라마_갤러리/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_파노라마_갤러리/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/6_파노라마_갤러리/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +97,11 @@
       <recent name="$PROJECT_DIR$/5_DOM_게임_제작/2_다중_애니메이션_젤다링크/zelda-link-img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6_파노라마_갤러리/mov" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/img" />
       <recent name="$PROJECT_DIR$/5_DOM_게임_제작/4_파노라마_갤러리/mov" />
       <recent name="$PROJECT_DIR$/5_DOM_게임_제작/2_다중_애니메이션_젤다링크/img/map" />
-      <recent name="$PROJECT_DIR$/5_DOM_게임_제작/2_다중_애니메이션_젤다링크/img" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.concept_chk.js">
@@ -149,7 +137,7 @@
       <workItem from="1739324055699" duration="46407000" />
       <workItem from="1739449127103" duration="7965000" />
       <workItem from="1739498827845" duration="32745000" />
-      <workItem from="1739837690011" duration="16312000" />
+      <workItem from="1739837690011" duration="23981000" />
     </task>
     <task id="LOCAL-00001" summary="커밋">
       <option name="closed" value="true" />
@@ -215,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739781785856</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2025.2.18&#10;1차">
+      <option name="closed" value="true" />
+      <created>1739856996510</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739856996510</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +247,7 @@
     <MESSAGE value="2025.2.14&#10;2차" />
     <MESSAGE value="2025.2.14&#10;3차" />
     <MESSAGE value="2025.2.17&#10;1차" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.2.17&#10;1차" />
+    <MESSAGE value="2025.2.18&#10;1차" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.2.18&#10;1차" />
   </component>
 </project>
