@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <!-- 외부 라이브러리 로드 -->
+  <!-- 외부에서 만들어진 요소 하나도 사용 없이 직접 적용하기! -->
+  <link rel = "stylesheet" href = "reset.css">
+  <!-- fontawesome -->
+  <!-- 1. 사이트에서 내 계정 소유 키트 주소 생성 및 붙여넣기! -->
+  <script src = "https://kit.fontawesome.com/977d8943b2.js" crossorigin = "anonymous"></script>
+  <link rel = "stylesheet" href = "style.css">
+  <script defer src = "galleryScript.js"></script>
+
+</head>
+<body>
+<main class = "wrap">
+  <h2></h2>
+  <!-- 배경 : 영상  -->
+  <video class = "bg-mov" src = "mov/e1.mp4" autoplay loop muted></video>
+  <!-- 파노라마 스핀 : 8장 -->
+  <section id = "gallery-circle" class = "circle">
+    <article class = "face1">
+      <h1>Face Time</h1>
+      <div class = "inner">
+        <div>
+          <h2>News / Article Title (Frontpage)</h2>
+          <!--<img src = "img/food.jpg" alt = "">-->
+          <div class = "food-img"></div>
+          <h3>AI Food</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus doloremque dolores enim exercitationem inventore iste modi natus nesciunt, nisi praesentium recusandae. Alias magni officia optio quasi quibusdam, quos veritatis!</p>
+        </div>
+      </div>
+    </article>
+    <article class = "face2">
+      <!-- .face1 : Index/Nav -->
+      <h1>Face Title</h1>
+      <div class = "inner">
+        <nav>
+          <div>
+            <p><i class = "fa-brands fa-github"></i></p>
+            <h2>Git Hub</h2>
+          </div>
+          <div>
+            <p><i class = "fa-solid fa-heart"></i></p>
+            <h2>Heart</h2>
+          </div>
+          <div>
+            <p><i class = "fa-solid fa-code"></i></p>
+            <h2>Code</h2>
+          </div>
+          <div>
+            <p><i class = "fa-solid fa-dumpster-fire"></i></p>
+            <h2>dumpster</h2>
+          </div>
+          <div>
+            <p><i class = "fa-solid fa-bug"></i></p>
+            <h2>bug</h2>
+          </div>
+          <div>
+            <p><i class = "fa-solid fa-signature"></i></p>
+            <h2>signature</h2>
+          </div>
+        </nav>
+      </div>
+    </article>
+    <article class = "face3">
+      <h1>Members</h1>
+      <div class = "inner">
+        <div>
+          <div class = "mem-pic"></div>
+          <div class = "mem-intro">
+            <h2>Member Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, eos fuga in itaque maiores natus qui sapiente voluptates. At aut doloremque expedita facilis magnam nobis nulla omnis rem repellendus voluptas!</p>
+            <span class = "join-date">2025.02.18</span>
+          </div>
+        </div>
+        <div>
+          <div class = "mem-pic"></div>
+          <div class = "mem-intro">
+            <h2>Member Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus fugit iusto magnam magni nesciunt non repellat repellendus repudiandae temporibus velit. Aliquid animi culpa doloremque, nam necessitatibus officiis similique?</p>
+            <span class = "join-date">2025.02.18</span>
+          </div>
+        </div>
+        <div>
+          <div class = "mem-pic"></div>
+          <div class = "mem-intro">
+            <h2>Member Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate, dignissimos impedit ipsam itaque modi nesciunt nobis quos repellat soluta tempora ut vero voluptatem voluptates voluptatibus. Quidem quisquam sunt temporibus.</p>
+            <span class = "join-date">2025.02.18</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class = "face4">
+      <h1>Face Title</h1>
+      <div class = "inner">
+        <div>
+          <video src = "mov/e1.mp4" loop autoplay muted></video>
+          <h2>Welcome to the Fable World</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+        <div>
+          <h2>Grok3 is Launching Today!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dicta dolorem eaque praesentium quas tempora ut veritatis? Accusantium corporis dignissimos id mollitia nostrum? Dolorum, fugiat minus modi officiis saepe voluptas.</p>
+          <span class = "topic-date">2025.02.18</span>
+        </div>
+      </div>
+    </article>
+    <article class = "face5">
+      <!-- 이미지 사이즈가 고려된 경우 레이아웃 생성 -->
+      <h1>Face Title</h1>
+      <div class = "inner">
+        <div>
+          <h2>Company Slogan</h2>
+          <div class = "pic">
+            <!-- 가변 크기 이미지를 교체하면서 쓸수 있도록 한장은 백그라운드 처리 -->
+          </div>
+          <img src = "img/txt.png" alt = "company-slogan">
+          <img src = "img/btn.png" alt = "learn-more">
+          <img class="reflect" src = "img/reflect.png" alt = "reflect-effect">
+        </div>
+      </div>
+    </article>
+    <article class = "face6">
+      <h1>Face Title</h1>
+      <div class = "inner">
+      </div>
+    </article>
+    <article class = "face7">
+      <h1>Face Title</h1>
+      <div class = "inner">
+      </div>
+    </article>
+    <article class = "face8">
+      <h1>Face Title</h1>
+      <div class = "inner">
+      </div>
+    </article>
+  </section>
+</main>
+</body>
+</html>
